@@ -1,0 +1,19 @@
+{
+  "name": "utn",
+  "version": "1.0.0",
+  "description": "Prueba de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon creando_express_server.js",
+    "start":"node creando_express_server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "moment": "^2.29.1"
+  }
+}
