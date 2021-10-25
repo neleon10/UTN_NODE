@@ -7,12 +7,14 @@ const hbs = require('hbs')//USAMOS HANDLEBARS pero podemos usar EJS o el que sea
 //puerto //ATENCION! ver archivos .env
 require ('dotenv').config();
 const port =process.env.PORT;
+
 app.listen(port, () => {
-    console.log(`Escuchando `)
+    console.log(`Escuchando ${port}`)
 })
 
 //handlebars / motor de plantilla.
 app.set('view engine', 'hbs')
+
 //partials o templates es lo mismo.
 hbs.registerPartials(__dirname+ '/views/partials')
 
