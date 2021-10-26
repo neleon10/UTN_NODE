@@ -6,10 +6,9 @@ const hbs = require('hbs')//USAMOS HANDLEBARS pero podemos usar EJS o el que sea
 
 //puerto //ATENCION! ver archivos .env
 require ('dotenv').config();
-const port =process.env.PORT;
-
-app.listen(port, () => {
-    console.log(`Escuchando ${port}`)
+const PORT =process.env.PORT;
+app.listen(PORT, () => {
+    console.log(`Escuchando ${PORT}`)
 })
 
 //handlebars / motor de plantilla.
